@@ -1,0 +1,10 @@
+# yaml-language-server: $schema=../_scripts/support_install_variables.json
+module: lakeshore340
+version: 2-6-4
+
+organization: https://github.com/DiamondLightSource
+
+# comment out the documentation from the Makefile
+comment_out:
+  - path: Makefile
+    regexp: documentation
